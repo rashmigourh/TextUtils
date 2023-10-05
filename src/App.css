@@ -1,0 +1,25 @@
+*{
+  overflow-y: visible;
+}
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='00 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+  
+  .navbar-toggler{
+  border: 2px solid white;
+  }
+  
+  .navbar-toggler:focus{ 
+    box-shadow: none;
+  }
+  .mb-3 .contain {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  #replace{
+    display: none;
+    margin-top: -4%;
+    margin-left: 12%;
+    text-transform: uppercase;
+  }

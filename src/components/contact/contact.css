@@ -1,0 +1,20 @@
+.Contact_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+}
+
+.form{
+    margin-top: 5%;
+}
+.image img{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* media query */
+@media screen and (max-width: 1024px) {
+    .Contact_container{
+        grid-template-columns: 1fr;
+    }
+  }

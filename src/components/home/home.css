@@ -1,0 +1,17 @@
+.home_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    place-items: center;
+}
+.background_image img{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* media query */
+@media screen and (max-width: 1024px) {
+    .home_container{
+        grid-template-columns: 1fr;
+    }
+  }
